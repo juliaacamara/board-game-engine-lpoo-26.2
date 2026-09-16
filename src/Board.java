@@ -1,5 +1,6 @@
 public class Board {
     private char[][] board;
+    private int moveCount;
 
     public Board() {
         board = new char[3][3];
@@ -26,6 +27,7 @@ public class Board {
 
         board[row][column] = move.getPlayer().getSymbol();
 
+        this.moveCount++;
         return true;
 
     }
@@ -64,17 +66,19 @@ public class Board {
             return true;
         }
         return false;
+
+        //tie condition
     }
 
     public boolean isFull() {
-        for (int i = 0; i < 3; i++) {
+        /*for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (board[i][j] != ' ') {
                     return false;
                 }
             }
-        }
-        return true;
+        }*/
+        return this.moveCount == 9;
     }
 
     public void display() {
