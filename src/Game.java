@@ -73,8 +73,6 @@ public class Game {
 
             changePlayer();
         }
-
-        scanner.close();
     }
 
     private void changePlayer() {
