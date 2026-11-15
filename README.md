@@ -131,4 +131,4 @@ Qualquer novo jogo composto pelas regras existentes pode ser adicionado criando 
 - **Herança e Tratamento de Exceções:** Hierarquia `GameException` $\rightarrow$ `InvalidPositionException`, `InvalidMoveException` e `InvalidConfigurationException`, evitando encerramento abrupto com stack trace.
 - **Coleções:** Uso de `List<Player>` em `TurnManager` e `Map` para registro dinâmico de regras em `GameLoader`.
 
-Consulte o diagrama de classes completo em [`docs/class_diagram_checkpoint2.md`](docs/class_diagram_checkpoint2.md).
+Consulte o diagrama de classes completo em [`docs/class_diagram_checkpoint2.svg`](docs/class_diagram_checkpoint2.svg).
