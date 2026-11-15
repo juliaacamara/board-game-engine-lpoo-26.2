@@ -1,0 +1,19 @@
+{
+  "game": "Connect Four",
+  "board": {
+    "rows": 6,
+    "columns": 7
+  },
+  "players": {
+    "count": 2,
+    "symbols": ["V", "A"]
+  },
+  "rules": {
+    "placement": "GRAVITY",
+    "winCondition": {
+      "type": "ALIGNMENT",
+      "quantity": 4
+    }
+  }
+}
+

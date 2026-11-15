@@ -1,0 +1,19 @@
+{
+  "game": "Gomoku 5x5 (3 Jogadores)",
+  "board": {
+    "rows": 5,
+    "columns": 5
+  },
+  "players": {
+    "count": 3,
+    "symbols": ["X", "O", "#"]
+  },
+  "rules": {
+    "placement": "EMPTY_POSITION",
+    "winCondition": {
+      "type": "ALIGNMENT",
+      "quantity": 4
+    }
+  }
+}
+
